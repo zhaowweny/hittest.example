@@ -26,6 +26,14 @@
 		[self addChildViewController:popoverVC];
 		[self.view addSubview:popoverVC.view];
 	}
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"pages/index" ofType:@"html"];
+    
+    NSURL *baseURL = [NSURL fileURLWithPath:path];
+    
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:baseURL];
+    
+    [_customWebView loadRequest:request];
 }
 
 - (IBAction)onClickMe:(id)sender {

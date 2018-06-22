@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD26272820DC79A100BFB99F /* pages in Resources */ = {isa = PBXBuildFile; fileRef = AD26272720DC79A100BFB99F /* pages */; };
 		ADFBDFCA20DA65FB007727CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFBDFC920DA65FB007727CD /* AppDelegate.m */; };
 		ADFBDFCD20DA65FB007727CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFBDFCC20DA65FB007727CD /* ViewController.m */; };
 		ADFBDFCF20DA65FB007727CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADFBDFCE20DA65FB007727CD /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD26272720DC79A100BFB99F /* pages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pages; sourceTree = "<group>"; };
 		ADB6651820DA7DA900F99FBC /* mouse_events.test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mouse_events.test.entitlements; sourceTree = "<group>"; };
 		ADFBDFC520DA65FB007727CD /* mouse_events.test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mouse_events.test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFBDFC820DA65FB007727CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		ADFBDFC720DA65FB007727CD /* mouse_events.test */ = {
 			isa = PBXGroup;
 			children = (
+				AD26272720DC79A100BFB99F /* pages */,
 				ADB6651820DA7DA900F99FBC /* mouse_events.test.entitlements */,
 				ADFBDFC820DA65FB007727CD /* AppDelegate.h */,
 				ADFBDFC920DA65FB007727CD /* AppDelegate.m */,
@@ -148,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD26272820DC79A100BFB99F /* pages in Resources */,
 				ADFBDFCF20DA65FB007727CD /* Assets.xcassets in Resources */,
 				ADFBDFD220DA65FB007727CD /* Main.storyboard in Resources */,
 			);
